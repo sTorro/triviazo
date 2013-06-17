@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="com.torrosoft.triviazo.screens.AbstractScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/AbstractScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="487" y="1203"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.torrosoft.triviazo.TriviazoGame" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/TriviazoGame.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="518" y="206"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.torrosoft.triviazo.core.data.Database" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/data/Database.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="166" y="145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="4" language="java" name="com.torrosoft.triviazo.core.data.Database.Result" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/data/Database.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="285" y="411"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="5" language="java" name="com.torrosoft.triviazo.core.data.DatabaseAndroid.ResultAndroid" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/data/DatabaseAndroid.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="361" y="700"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.torrosoft.triviazo.core.data.DatabaseAndroid" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/data/DatabaseAndroid.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="102" y="406"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.torrosoft.triviazo.core.data.DatabaseAndroid.AndroidDB" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/data/DatabaseAndroid.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="135" y="678"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="com.torrosoft.triviazo.core.data.DatabaseDesktop.ResultDesktop" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/data/DatabaseDesktop.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="927" y="89"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="com.torrosoft.triviazo.core.data.DatabaseDesktop" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/data/DatabaseDesktop.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="753" y="104"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="com.torrosoft.triviazo.core.CurrentGameConfig" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/CurrentGameConfig.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="139" y="2470"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.torrosoft.triviazo.services.music.MusicManager" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/services/music/MusicManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="828" y="355"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.torrosoft.triviazo.services.music.SoundManager" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/services/music/SoundManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="675" y="681"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="13" language="java" name="com.torrosoft.triviazo.services.music.TriviazoMusic" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/services/music/TriviazoMusic.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="915" y="644"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="14" language="java" name="com.torrosoft.triviazo.services.music.TriviazoSound" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/services/music/TriviazoSound.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="915" y="833"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="15" language="java" name="com.torrosoft.triviazo.services.preferences.Preference" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/services/preferences/Preference.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="900" y="1015"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="16" language="java" name="com.torrosoft.triviazo.services.preferences.PreferencesManager" 
+    project="Triviazo" file="/Triviazo/src/com/torrosoft/triviazo/services/preferences/PreferencesManager.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="684" y="986"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="17" language="java" name="com.torrosoft.triviazo.util.LRUCache.CacheEntryRemovedListener" 
+    project="Triviazo" file="/Triviazo/src/com/torrosoft/triviazo/util/LRUCache.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="138" y="803"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <class id="18" language="java" name="com.torrosoft.triviazo.util.LRUCache" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/util/LRUCache.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="183" y="974"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="com.torrosoft.triviazo.util.DefaultButtonListener" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/util/DefaultButtonListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="651" y="1610"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="com.torrosoft.triviazo.screens.AboutScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/AboutScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="691" y="1145"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="com.torrosoft.triviazo.screens.DisciplinesScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/DisciplinesScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="918" y="1299"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="com.torrosoft.triviazo.screens.GameModeScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/GameModeScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="708" y="1376"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="com.torrosoft.triviazo.screens.GameOverScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/GameOverScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="113" y="1197"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="com.torrosoft.triviazo.screens.GameScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/GameScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="608" y="1995"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="com.torrosoft.triviazo.screens.HallOfFameScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/HallOfFameScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="213" y="1425"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="com.torrosoft.triviazo.screens.IntellectusMachina" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/IntellectusMachina.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="146" y="1879"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="com.torrosoft.triviazo.screens.LastConfigScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/LastConfigScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="359" y="1740"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="com.torrosoft.triviazo.screens.MenuScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/MenuScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="128" y="1652"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="com.torrosoft.triviazo.screens.PreferencesScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/PreferencesScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="900" y="1625"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="com.torrosoft.triviazo.screens.SplashScreen" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/SplashScreen.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="165" width="136" x="237" y="1070"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="com.torrosoft.triviazo.screens.TempusFugit" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/TempusFugit.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="873" y="1846"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="com.torrosoft.triviazo.screens.VindicetisExSimius" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/screens/VindicetisExSimius.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="238" y="2127"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="com.torrosoft.triviazo.core.data.wrappers.Question" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/data/wrappers/Question.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="823" y="2610"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="34" language="java" name="com.torrosoft.triviazo.core.enums.Discipline" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/enums/Discipline.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="877" y="2158"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="35" language="java" name="com.torrosoft.triviazo.core.enums.Difficulty" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/enums/Difficulty.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="441" y="2421"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="36" language="java" name="com.torrosoft.triviazo.core.enums.GameMode" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/enums/GameMode.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="142" y="2835"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="37" language="java" name="com.torrosoft.triviazo.core.enums.Language" project="Triviazo" 
+    file="/Triviazo/src/com/torrosoft/triviazo/core/enums/Language.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="442" y="2701"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="38" language="java" name="com.torrosoft.triviazo.TriviazoAndroidLauncher" project="Triviazo-android" 
+    file="/Triviazo-android/src/com/torrosoft/triviazo/TriviazoAndroidLauncher.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="355" y="2918"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="com.torrosoft.triviazo.TriviazoDesktopLauncher" project="Triviazo-desktop" 
+    file="/Triviazo-desktop/src/com/torrosoft/triviazo/TriviazoDesktopLauncher.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="564" y="2919"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <association id="40">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="41" name="soundManager"/>      
+      <multiplicity id="42" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="43">    
+    <bendpoint x="277" y="1325"/>    
+    <bendpoint x="54" y="1362"/>    
+    <bendpoint x="14" y="1834"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="44" name="gameConfig"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="46">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <generalization id="47">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="48">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="49" name="discipline"/>      
+      <multiplicity id="50" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="51">    
+    <bendpoint x="806" y="1204"/>    
+    <bendpoint x="718" y="1204"/>    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="52">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="53" name="musicBeingPlayed"/>      
+      <multiplicity id="54" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="55">    
+    <bendpoint x="518" y="664"/>    
+    <bendpoint x="518" y="786"/>    
+    <bendpoint x="550" y="880"/>    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="56" name="preferencesManager"/>      
+      <multiplicity id="57" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="58">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="59" name="musicManager"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="62" name="instance"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="64">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="8"/>  
+  </nesting>  
+  <generalization id="65">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="66">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <realization id="67">    
+    <bendpoint x="385" y="852"/>    
+    <end type="SOURCE" refId="12"/>    
+    <end type="TARGET" refId="17"/>  
+  </realization>  
+  <association id="68">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="69" name="btnListener"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="71">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <association id="72">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="73" name="gameMode"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="75">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="76">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="77" name="difficulty"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="79">    
+    <bendpoint x="288" y="2410"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="80" name="difQuestions"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="82">    
+    <bendpoint x="884" y="1532"/>    
+    <bendpoint x="577" y="1531"/>    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="83">    
+    <bendpoint x="301" y="1264"/>    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <association id="84">    
+    <bendpoint x="456" y="918"/>    
+    <bendpoint x="479" y="684"/>    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="85" name="game"/>      
+      <multiplicity id="86" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="87">    
+    <bendpoint x="486" y="1581"/>    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="88">    
+    <bendpoint x="293" y="1966"/>    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="24"/>  
+  </generalization>  
+  <association id="89">    
+    <bendpoint x="287" y="2491"/>    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="90" name="difAI"/>      
+      <multiplicity id="91" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="92">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="17"/>  
+  </nesting>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="94">    
+    <bendpoint x="327" y="1492"/>    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <realization id="95">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="96">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="97" name="lang"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="99">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="100" name="questions"/>      
+      <multiplicity id="101" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="33" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="102">    
+    <bendpoint x="404" y="901"/>    
+    <end type="SOURCE" refId="12" navigable="false">      
+      <attribute id="103" name="soundCache"/>      
+      <multiplicity id="104" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="105">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="106" name="entryRemovedListener"/>      
+      <multiplicity id="107" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="108">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <generalization id="109">    
+    <bendpoint x="675" y="-2"/>    
+    <bendpoint x="335" y="-4"/>    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="3"/>  
+  </generalization>  
+  <realization id="110">    
+    <bendpoint x="992" y="271"/>    
+    <bendpoint x="975" y="492"/>    
+    <bendpoint x="688" y="489"/>    
+    <bendpoint x="546" y="489"/>    
+    <bendpoint x="375" y="523"/>    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="4"/>  
+  </realization>  
+  <association id="111">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="112" name="database"/>      
+      <multiplicity id="113" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <nesting id="114">    
+    <bendpoint x="237" y="599"/>    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="5"/>  
+  </nesting>  
+  <generalization id="115">    
+    <bendpoint x="502" y="1651"/>    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <nesting id="116">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </nesting>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
